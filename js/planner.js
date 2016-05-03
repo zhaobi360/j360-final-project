@@ -1,0 +1,1 @@
+var picker = new Pikaday({ field: $('#datepicker')[0] });
