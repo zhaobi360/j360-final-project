@@ -17,4 +17,8 @@ tips on this fictional studio website# j360-final-project
 
 8. Since it is a business studio, the website is created to promote the business. A favicon is a good way to achieve this. I referred the http://www.w3schools.com/tags/att_link_sizes.asp and it works in my website.
 
-9. thoughts: never stop learning!
+9. Shout out to http://design.spruce.it/symbols/ss-symbolicons-block/documentation.html so that I can use SS Symbolicons to make my pages beautiful.
+
+10.Some functions may not be supported on all kinds of browsers, such as date pick-up calendar, etc. I need to learn more to step further.
+
+11.thoughts: never stop learning!
