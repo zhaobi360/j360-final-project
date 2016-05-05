@@ -19,4 +19,6 @@ tips on this fictional studio website# j360-final-project
 
 9. Shout out to http://design.spruce.it/symbols/ss-symbolicons-block/documentation.html so that I can use SS Symbolicons to make my pages beautiful.
 
-10. thoughts: never stop learning!
+10.Some functions may not be supported on all kinds of browsers, such as date pick-up calendar, etc. I need to learn more to step further.
+
+11.thoughts: never stop learning!

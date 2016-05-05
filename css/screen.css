@@ -234,9 +234,6 @@ textarea::-moz-selection {
     width: 325px;
 }
 
-.grid-7 {
-    width: 470px;
-}
 
 .grid-8 {
     width: 540px;
@@ -258,17 +255,7 @@ textarea::-moz-selection {
 .wrap {
     padding: 20px 0;
 }
-.vertical-center {
-    display: inline-block;
-    vertical-align: middle;
-    *vertical-align: auto;
-    *zoom: 1;
-    *display: inline;
-    height: 100%;
-    z-index: -1;
-    position: relative;
-    vertical-align: middle;
-}
+
 
 .third p {
   padding: 0 20px 0 20px;
@@ -968,9 +955,7 @@ fieldset {
 fieldset .error {
     color: #ee6557;
 }
-label {
-    cursor: pointer;
-}
+
 input[type="text"],
 input[type="email"],
 input[type="date"],
@@ -1025,27 +1010,7 @@ textarea {
 .input-wrap button:focus {
     color: #16a6b6;
 }
-.custom-radio,
-.custom-checkbox {
-    display: block;
-    padding: 0;
-    background-color: #C5C5C5;
-    -moz-transition: all 275ms;
-    -o-transition: all 275ms;
-    -webkit-transition: all 275ms;
-    transition: all 275ms;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    display: block;
-    text-transform: uppercase;
-    z-index: 1;
-    padding: 8px 0;
-}
-.custom-radio input,
-.custom-checkbox input {
-    display: none;
-}
+
 .custom-radio .info,
 .custom-checkbox .info,
 .custom-select .info {
@@ -1108,22 +1073,7 @@ html.touch .custom-checkbox.active,
 html.touch .custom-checkbox .info {
     background: #16a6b6;
 }
-.custom-select {
-    cursor: pointer;
-    display: block;
-    position: relative;
-    background-color: #fff;
-    padding: 0 42px 0 16px;
-    line-height: 40px;
-    height: 40px;
-    color: #aaaaaa;
-    text-align: left;
-    letter-spacing: 0;
-    text-transform: none;
-}
-.custom-select select {
-    display: none;
-}
+
 
 .custom-select .info {
     background-color: #fff;
@@ -1218,132 +1168,6 @@ html.touch .custom-checkbox .info {
     background: none;
 }
 
-#modal-wrap {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-    overflow: scroll;
-    -webkit-overflow-scrolling: touch;
-}
-#modal-overlay {
-    display: none;
-    background-color: #000;
-    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
-    opacity: 0;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 9998;
-}
-#modal {
-    display: inline-block;
-    vertical-align: middle;
-    *vertical-align: auto;
-    *zoom: 1;
-    *display: inline;
-    margin: 35px 0;
-    vertical-align: middle;
-    position: relative;
-    text-align: left;
-    max-width: 88%;
-}
-#modal .tagline {
-    color: #ee6557;
-    margin-top: .3em;
-}
-#modal .grid-7 {
-    width: 50%;
-    margin: 0;
-}
-#modal .grid-14 {
-    width: 100%;
-}
-
-#modal-content,
-#modal-footer {
-    -moz-border-radius: 5px 5px 0 0;
-    -webkit-border-radius: 5px;
-    border-radius: 5px 5px 0 0;
-}
-#modal-content .grid-7,
-#modal-content .grid-14,
-#modal-footer .grid-7,
-#modal-footer .grid-14 {
-    padding: 45px 50px;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-#modal-content .grid-7.omega,
-#modal-footer .grid-7.omega {
-    padding-left: 0;
-}
-#modal-content .grid-14,
-#modal-footer .grid-14 {
-    padding-bottom: 0;
-}
-#modal-content {
-    background-color: #fff;
-    position: relative;
-    font-size: 20px;
-    word-spacing: 1px;
-    line-height: 30px;
-}
-
-#modal-left,
-#modal-right,
-#modal-close {
-    display: block;
-    position: absolute;
-    background-color: #fff;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    line-height: 50px;
-    height: 50px;
-    width: 50px;
-    color: #C5C5C5;
-    border: none;
-    top: 50%;
-    margin-top: -25px;
-    text-align: center;
-}
-#modal-left:hover,
-#modal-left:active,
-#modal-left:focus,
-#modal-right:hover,
-#modal-right:active,
-#modal-right:focus,
-#modal-close:hover,
-#modal-close:active,
-#modal-close:focus {
-    color: #16a6b6;
-}
-#modal-left i,
-#modal-right i,
-#modal-close i {
-    line-height: 51px;
-}
-#modal-left {
-    left: -25px;
-}
-#modal-right {
-    right: -25px;
-}
-#modal-close {
-    top: 25px;
-    right: 0;
-    background: none;
-    -moz-border-radius: 0;
-    -webkit-border-radius: 0;
-    border-radius: 0;
-}
 
 .button-list .button,
 .button-list button {
@@ -1443,36 +1267,7 @@ html.touch .custom-checkbox .info {
 #footer footer {
     padding-top: 40px;
 }
-.icon-box {
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    font-size: 18px;
-    word-spacing: 1px;
-    background-color: #C5C5C5;
-    color: #fff;
-    line-height: 52px;
-    width: 50px;
-    height: 50px;
-    border: none;
-    display: block;
-    text-align: center;
-}
-.icon-box:hover,
-.icon-box:active,
-.icon-box:focus {
-    color: #fff;
-    background-color: #16a6b6;
-}
-#to-top {
-    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
-    opacity: 0;
-    z-index: 9997;
-    position: fixed;
-    bottom: 25%;
-    right: 10px;
-    display: none;
-}
+
 
 #work-projects .inner {
     margin-top: 1em;
@@ -1641,9 +1436,6 @@ html body .mq-wide-i-block {
         width: 282.5px;
     }
 
-    .grid-7 {
-        width: 410.5px;
-    }
 
     .grid-8 {
         width: 472px;
@@ -1922,26 +1714,6 @@ html body .mq-wide-i-block {
         margin-top: .3em;
     }
 
-    #modal {
-        width: 84%;
-    }
-    #modal .grid-7 {
-        width: 100%;
-        margin: 0;
-    }
-
-    #modal-content .grid-7.alpha,
-    #modal-content .grid-7.omega,
-    #modal-footer .grid-7.alpha,
-    #modal-footer .grid-7.omega {
-        padding: 35px 40px;
-    }
-    #modal-content .grid-14.alpha,
-    #modal-content .grid-14.omega,
-    #modal-footer .grid-14.alpha,
-    #modal-footer .grid-14.omega {
-        padding: 35px 40px 0;
-    }
 
     #footer {
         margin-top: 100px;
@@ -1973,17 +1745,7 @@ html body .mq-wide-i-block {
         display: block;
         float: none;
     }
-    #to-top {
-        bottom: 15%;
-        right: 5px;
-    }
-    #modal {
-        width: 88%;
-    }
-    #modal-left,
-    #modal-right {
-        display: none;
-    }
+
     #footer {
         margin-top: 80px;
     }
@@ -1998,16 +1760,9 @@ html body .mq-wide-i-block {
         font-size: 22px;
         line-height: 30px;
     }
-
-    .icon-box {
-        font-size: 16px;
-        word-spacing: 1px;
-        line-height: 38px;
-        width: 40px;
-        height: 40px;
-    }
 }
 @media screen and (max-width: 360px) {
+
 
     html {
         word-wrap: break-word;
