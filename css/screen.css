@@ -106,15 +106,7 @@ textarea {
     -webkit-tap-highlight-color: transparent;
     -webkit-font-smoothing: antialiased;
 }
-html::selection,
-body::selection,
-button::selection,
-input::selection,
-select::selection,
-textarea::selection {
-    background: #ee6557;
-    color: #fff;
-}
+
 html::-moz-selection,
 body::-moz-selection,
 button::-moz-selection,
@@ -411,14 +403,12 @@ a.active .pseudo-link {
 
 .pseudo-link.disabled,
 a.disabled {
-    pointer-events: none;
     cursor: default;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none;
 }
 
 h1,
@@ -502,10 +492,6 @@ p.secondary,
     margin-top: 0;
     display: inline-block;
     vertical-align: middle;
-    *vertical-align: auto;
-    *zoom: 1;
-    *display: inline;
-    vertical-align: top;
 }
 
 .list-float-none>li {
@@ -529,18 +515,12 @@ p.secondary,
 .list-hex-grid img {
     display: inline-block;
     vertical-align: middle;
-    *vertical-align: auto;
-    *zoom: 1;
-    *display: inline;
     vertical-align: top;
 }
 .list-hex-grid div.hex {
     font-size: 16px;
     display: inline-block;
     vertical-align: middle;
-    *vertical-align: auto;
-    *zoom: 1;
-    *display: inline;
     margin-top: 37px;
     margin-bottom: 37px;
     float: none;
@@ -600,9 +580,6 @@ p.secondary,
 .list-hex-grid div.hex .inner {
     display: inline-block;
     vertical-align: middle;
-    *vertical-align: auto;
-    *zoom: 1;
-    *display: inline;
     white-space: normal;
     z-index: 20;
     position: relative;
@@ -617,9 +594,7 @@ p.secondary,
 .list-hex-grid div.hex .inner img {
     display: inline-block;
     vertical-align: middle;
-    *vertical-align: auto;
-    *zoom: 1;
-    *display: inline;
+
 }
 .list-hex-grid div.hex .hex-1,
 .list-hex-grid div.hex .hex-2 {
@@ -714,7 +689,6 @@ p.secondary,
 
 .list-hex-grid div.hex.invert .after,
 .list-hex-grid div.hex.invert .inner {
-    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
     -moz-transition: none 1s;
     -o-transition: none 1s;
@@ -779,11 +753,7 @@ p.secondary,
 .list-icon-items>li {
     display: inline-block;
     vertical-align: middle;
-    *vertical-align: auto;
-    *zoom: 1;
-    *display: inline;
     float: none;
-    vertical-align: top;
 }
 
 .list-icon-items.no-margins {
@@ -881,9 +851,6 @@ button,
     letter-spacing: 3px;
     display: inline-block;
     vertical-align: middle;
-    *vertical-align: auto;
-    *zoom: 1;
-    *display: inline;
     padding: 8px 20px;
     background-color: #16a6b6;
     color: #fff;
@@ -1024,7 +991,6 @@ textarea {
     -o-transition: all 275ms;
     -webkit-transition: all 275ms;
     transition: all 275ms;
-    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
     font-size: 16px;
     word-spacing: 1px;
@@ -1042,7 +1008,6 @@ textarea {
     border-radius: 0 0 5px 5px;
     z-index: -9999;
     color: #fff;
-    pointer-events: none;
     -webkit-backface-visibility: hidden;
 }
 
@@ -1126,9 +1091,6 @@ html.touch .custom-checkbox .info {
     background-color: #16a6b6;
     display: inline-block;
     vertical-align: middle;
-    *vertical-align: auto;
-    *zoom: 1;
-    *display: inline;
     position: relative;
 }
 .circ.secondary {
@@ -1211,10 +1173,6 @@ html.touch .custom-checkbox .info {
 #nav p {
     display: inline-block;
     vertical-align: middle;
-    *vertical-align: auto;
-    *zoom: 1;
-    *display: inline;
-    vertical-align: middle;
     width: 120px;
     margin: 0 10px;
 }
@@ -1259,9 +1217,6 @@ html.touch .custom-checkbox .info {
 #footer .list-icon-items>li .has-border {
     display: inline-block;
     vertical-align: middle;
-    *vertical-align: auto;
-    *zoom: 1;
-    *display: inline;
     border-bottom: 1px solid #16a6b6;
 }
 #footer footer {
@@ -1310,7 +1265,6 @@ html body .mq-wide {
 }
 html body .mq-wide-i-block {
     display: inline-block!important;
-    *display: inline!important;
 }
 @media screen and (max-width: 1180px) {
     html body .mq-wide,
@@ -1326,7 +1280,6 @@ html body .mq-wide-i-block {
     }
     html body .mq-mid-i-block {
         display: inline-block!important;
-        *display: inline!important;
     }
     .container {
         width: 960px;
@@ -1412,7 +1365,6 @@ html body .mq-wide-i-block {
     }
     html body .mq-small-i-block {
         display: inline-block!important;
-        *display: inline!important;
     }
     .container {
         width: 984px;
@@ -1578,7 +1530,6 @@ html body .mq-wide-i-block {
     }
     html body .mq-mobile-i-block {
         display: inline-block!important;
-        *display: inline!important;
     }
     .section {
         margin-top: 115px;
@@ -1766,7 +1717,6 @@ html body .mq-wide-i-block {
 
     html {
         word-wrap: break-word;
-        word-break: hyphenate!important;
     }
     #nav p {
         font-size: 19px;
@@ -1783,11 +1733,6 @@ html body .mq-wide-i-block {
 .display-inline-block {
     display: inline-block;
     vertical-align: middle;
-    *vertical-align: auto;
-    *zoom: 1;
-    *display: inline;
-    display: inline-block!important;
-    *display: inline!important;
 }
 .display-block {
     display: block!important;
@@ -1815,11 +1760,7 @@ html body .mq-wide-i-block {
 .bodycolor {
     color: #6b6b6b!important;
 }
-.clearfix,
-.container,
-.list-hex-grid {
-    *zoom: 1;
-}
+
 .clearfix:after,
 .container:after,
 .list-hex-grid:after {
